@@ -9,15 +9,15 @@ body, h1, h2, p {
 body {
     background-color: #f9f9f9;
     color: #333;
-    padding: 40px;
-    line-height: 1.6;
+    padding: 30px;
+    line-height: 1.4;
 }
 
 /* Título principal */
 h1 {
     text-align: center;
-    margin-bottom: 40px;
-    font-size: 2em;
+    margin-bottom: 24px;
+    font-size: 1.8em;
     color: #0055aa;
 }
 
@@ -26,16 +26,16 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    gap: 16px;
 }
 
 /* Cada coluna de texto */
 .coluna {
     flex: 1;
-    padding: 20px;
+    padding: 16px;
     background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.08);
 }
 
 /* Barra vertical entre colunas */
@@ -48,7 +48,14 @@ h1 {
 /* Títulos das colunas */
 h2 {
     color: #0077cc;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1em;
+    margin-bottom: 10px;
 }
 
 /* Destaques */
@@ -59,7 +66,7 @@ strong {
 
 /* Áudio */
 audio {
-    margin-top: 40px;
+    margin-top: 24px;
     width: 100%;
     max-width: 600px;
     display: block;
@@ -75,5 +82,9 @@ audio {
 
     .divisor {
         display: none;
+    }
+
+    .coluna {
+        margin-bottom: 20px;
     }
 }
