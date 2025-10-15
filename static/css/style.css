@@ -1,0 +1,55 @@
+/* Reset básico */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 40px;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+    color: #0055aa;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+/* Destaques */
+strong {
+    color: #222;
+    font-weight: bold;
+}
+
+/* Áudio player */
+audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
