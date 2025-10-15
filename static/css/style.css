@@ -1,11 +1,11 @@
 /* Reset básico */
-body, h1, p {
+body, h1, h2, p {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Estilo geral do corpo */
+/* Estilo geral */
 body {
     background-color: #f9f9f9;
     color: #333;
@@ -13,43 +13,67 @@ body {
     line-height: 1.6;
 }
 
-/* Títulos */
+/* Título principal */
 h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
     color: #0055aa;
-    margin-bottom: 10px;
-    font-size: 1.8em;
 }
 
-/* Parágrafos */
-p {
-    margin-bottom: 30px;
-    font-size: 1.1em;
+/* Container com colunas */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Cada coluna de texto */
+.coluna {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Barra vertical entre colunas */
+.divisor {
+    width: 2px;
+    background-color: #ccc;
+    height: auto;
+}
+
+/* Títulos das colunas */
+h2 {
+    color: #0077cc;
+    margin-bottom: 15px;
 }
 
 /* Destaques */
 strong {
-    color: #222;
     font-weight: bold;
+    color: #222;
 }
 
-/* Áudio player */
+/* Áudio */
 audio {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 100%;
     max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Responsividade */
-@media (max-width: 600px) {
-    body {
-        padding: 20px;
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
     }
 
-    h1 {
-        font-size: 1.4em;
-    }
-
-    p {
-        font-size: 1em;
+    .divisor {
+        display: none;
     }
 }
