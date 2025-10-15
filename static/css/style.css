@@ -9,14 +9,14 @@ body, h1, h2, p {
 body {
     background-color: #f9f9f9;
     color: #333;
-    padding: 30px;
+    padding: 20px; /* Reduzido de 30px para 20px */
     line-height: 1.4;
 }
 
 /* Título principal */
 h1 {
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-size: 1.8em;
     color: #0055aa;
 }
@@ -26,13 +26,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 16px;
+    gap: 12px; /* Reduzido de 16px para 12px */
 }
 
 /* Cada coluna de texto */
 .coluna {
     flex: 1;
-    padding: 16px;
+    padding: 12px; /* Reduzido de 15px para 12px */
     background-color: #ffffff;
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0,0,0,0.08);
@@ -40,7 +40,7 @@ h1 {
 
 /* Barra vertical entre colunas */
 .divisor {
-    width: 2px;
+    width: 1px; /* Reduzido de 2px para 1px */
     background-color: #ccc;
     height: auto;
 }
@@ -55,7 +55,7 @@ h2 {
 /* Parágrafos */
 p {
     font-size: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 /* Destaques */
@@ -66,7 +66,7 @@ strong {
 
 /* Áudio */
 audio {
-    margin-top: 24px;
+    margin-top: 30px;
     width: 100%;
     max-width: 600px;
     display: block;
@@ -82,9 +82,5 @@ audio {
 
     .divisor {
         display: none;
-    }
-
-    .coluna {
-        margin-bottom: 20px;
     }
 }
