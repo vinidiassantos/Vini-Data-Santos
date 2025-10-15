@@ -9,7 +9,7 @@ body, h1, h2, p {
 body {
     background-color: #f9f9f9;
     color: #333;
-    padding: 20px; /* Reduzido de 30px para 20px */
+    padding: 30px;
     line-height: 1.4;
 }
 
@@ -26,13 +26,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 12px; /* Reduzido de 16px para 12px */
+    gap: 16px;
 }
 
 /* Cada coluna de texto */
 .coluna {
     flex: 1;
-    padding: 12px; /* Reduzido de 15px para 12px */
+    padding: 15px;
     background-color: #ffffff;
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0,0,0,0.08);
@@ -40,7 +40,7 @@ h1 {
 
 /* Barra vertical entre colunas */
 .divisor {
-    width: 1px; /* Reduzido de 2px para 1px */
+    width: 2px;
     background-color: #ccc;
     height: auto;
 }
