@@ -32,7 +32,7 @@ h1 {
 /* Cada coluna de texto */
 .coluna {
     flex: 1;
-    padding: 15px;
+    padding: 15px 8px; /* 15px vertical, 8px horizontal */
     background-color: #ffffff;
     border-radius: 6px;
     box-shadow: 0 0 6px rgba(0,0,0,0.08);
